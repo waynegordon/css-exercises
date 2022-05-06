@@ -1,0 +1,29 @@
+.one {
+  color: black;
+  background-color: #ffacac;
+  font-size: 25px;
+}
+
+#two {
+  color: blue;
+  background-color: white;
+  font-size: 36px;
+}
+
+.three {
+  color: black;
+  background-color: #ffa8a8;
+  font-size: 25px;
+}
+#four {
+  color: black;
+  background-color: #80ff80;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.five {
+  color: black;
+  background-color: pink;
+  font-size: 18px;
+}
