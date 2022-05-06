@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.left-button {
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  margin-top: 250px;
+  margin-left: 350px;
+  margin-right: 0px;
+}
+
+.right-button {
+  background-color: yellow;
+  color: black;
+  font-size: 60px;
+  margin-left: 0px;
+}
