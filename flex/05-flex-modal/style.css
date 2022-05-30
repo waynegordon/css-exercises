@@ -95,7 +95,7 @@ button {
 
 
 .bottom-buttons {
-  diplay: flex;
+  display: flex;
   flex-direction: row;
 }
 
