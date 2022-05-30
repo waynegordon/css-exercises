@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;
+html {
+  background-color: rgb(35,35,35);
 }
 
 body {
+  height: 420px;;
+  width: 680px;
   font-family: Roboto, sans-serif;
-  margin: 0;
+  margin-top: 170px;
+  margin-bottom: 190px;
+  margin-left: 320px;
+  margin-right: 290px;
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
@@ -16,13 +21,38 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
+  gap: 16px;
+  padding: 16px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.not-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
 .icon {
+  display: flex;
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -34,6 +64,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  margin-bottom: 16px;;
+}
+
 
 .close-button {
   background: #eee;
@@ -51,6 +86,17 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.middle {
+  display:flex;
+  flex-direction: column;
+}
+
+
+.bottom-buttons {
+  diplay: flex;
+  flex-direction: row;
 }
 
 button.continue {
